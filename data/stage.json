@@ -1,0 +1,22 @@
+{
+    "url": "https://cloud.google.com/?hl=en",
+    "expected_url": "https://cloud.google.com/?hl=en",
+    "menu": {
+        "menu_tabs": ["Overview", "Solutions", "Products", "Pricing", "Resources"]
+    },
+    "news": {
+        "news_tabs": ["What's new in AI", "Developers", "Business leaders"]
+    },
+    "docs": {
+        "docs_page_url": "https://cloud.google.com/docs/",
+        "title": "Google Cloud Documentation"
+    },
+    "register_demo": {
+        "register_demo_page_url": "https://cloud.google.com/contact?direct=true",
+        "title": "Talk to a Google Cloud sales specialist",
+        "valid": {
+            "first_name": "Test",
+            "last_name": "Test"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "browser": "chrome",
+    "headless-mode": false,
+    "explicit": 10,
+    "implicit": 3,
+    "env": "stage"
+}

@@ -1,0 +1,48 @@
+01:31:36 - behave     - INFO       - Using environment: stage
+01:31:38 - behave     - INFO       - >>>>>>>>>> FEATURE: Verify Cloud Home Page UI <<<<<<<<<<
+01:31:38 - behave     - INFO       - ---------- SCENARIO: Verify Menu Tabs ----------
+01:31:40 - selenium   - INFO       - Navigated to URL: https://cloud.google.com/?hl=en
+01:31:40 - behave     - INFO       - Go to Demo page - Status.passed
+01:31:40 - DEBUG      - INFO       - ====> expected_menu_tabs: ['Overview', 'Solutions', 'Products', 'Pricing', 'Resources']
+01:31:40 - DEBUG      - INFO       - ====> current_menu_tabs: ['Overview', 'Solutions', 'Products', 'Pricing', 'Resources']
+01:31:41 - behave     - INFO       - Verify number of menu tabs - Status.passed
+01:31:41 - DEBUG      - INFO       - ====> expected_menu_tabs: ['Overview', 'Solutions', 'Products', 'Pricing', 'Resources']
+01:31:41 - DEBUG      - INFO       - ====> current_menu_tabs: ['Overview', 'Solutions', 'Products', 'Pricing', 'Resources']
+01:31:41 - behave     - INFO       - Verify information of menu tabs - Status.passed
+01:31:41 - behave     - INFO       - ---------- SCENARIO: Verify News Tabs ----------
+01:31:42 - selenium   - INFO       - Navigated to URL: https://cloud.google.com/?hl=en
+01:31:43 - behave     - INFO       - Go to Demo page - Status.passed
+01:31:43 - DEBUG      - INFO       - ====> expected_news_tabs: ["What's new in AI", 'Developers', 'Business leaders']
+01:31:43 - DEBUG      - INFO       - ====> current_news_tabs: ["What's new in AI", 'Developers', 'Business leaders']
+01:31:43 - behave     - INFO       - Verify number of news tabs - Status.passed
+01:31:43 - DEBUG      - INFO       - ====> expected_news_tabs: ["What's new in AI", 'Developers', 'Business leaders']
+01:31:43 - DEBUG      - INFO       - ====> current_news_tabs: ["What's new in AI", 'Developers', 'Business leaders']
+01:31:43 - behave     - INFO       - Verify information of news tabs - Status.passed
+01:31:43 - behave     - INFO       - ---------- SCENARIO: Verify news in each News Tab ----------
+01:31:44 - selenium   - INFO       - Navigated to URL: https://cloud.google.com/?hl=en
+01:31:44 - behave     - INFO       - Go to Demo page - Status.passed
+01:31:45 - DEBUG      - INFO       - ====> attr: true
+01:31:45 - DEBUG      - INFO       - ====> attr: true
+01:31:45 - DEBUG      - INFO       - ====> attr: true
+01:31:45 - DEBUG      - INFO       - ====> select_tab: what's new in ai
+01:31:45 - DEBUG      - INFO       - ====> ads_contents: {'DIGITAL EVENT': 'Join us at Gemini at Work to learn about the latest AI advancements, happening Sept. 24', 'NEW PRODUCT': 'Try Gemini 1.5 models to build with up to a 2M token context window', 'REPORT': 'Google Cloud named a leader in 2024 The Forrester Wave™ for AI foundation models for language'}
+01:31:45 - DEBUG      - INFO       - ====> news_tabs after delete: ['Developers', 'Business leaders']
+01:31:45 - behave     - INFO       - View news in current News Tab - Status.passed
+01:31:45 - selenium   - INFO       - "Developers" clicked
+01:31:46 - DEBUG      - INFO       - ====> ads_contents: {'INNOVATORS PLUS': 'Go pro on Google Cloud AI with $1,500+ in developer benefits', 'PRECONFIGURED SOLUTIONS': 'Deploy interactive solutions recommended by Google Cloud experts', 'DEVELOPER OFFER': 'Earn a $1,000 credit for new Vertex AI Agent Builder customers'}
+01:31:46 - selenium   - INFO       - "Business leaders" clicked
+01:31:46 - DEBUG      - INFO       - ====> ads_contents: {'DIGITAL EVENT': 'Register now for Google Cloud Startup Summit, happening Oct. 8', 'BLOG': 'Learn about the top AI courses from low-code to advanced use cases', 'SMALL AND MEDIUM BUSINESSES': 'Learn how SMBs drive growth, simplify operations, and mitigate risk with Google Cloud'}
+01:31:46 - behave     - INFO       - Compare news in current Tab with different News Tabs - Status.passed
+01:31:46 - behave     - INFO       - ---------- SCENARIO: Click on `Docs` on Header ----------
+01:31:47 - selenium   - INFO       - Navigated to URL: https://cloud.google.com/?hl=en
+01:31:47 - behave     - INFO       - Go to Demo page - Status.passed
+01:31:50 - behave     - INFO       - Click on `Docs` header - Status.passed
+01:31:51 - behave     - INFO       - Verify if navigating to correct Documentation page - Status.passed
+01:31:51 - behave     - INFO       - >>>>>>>>>> FEATURE: I want to Request A Demo with Cloud <<<<<<<<<<
+01:31:51 - behave     - INFO       - ---------- SCENARIO: Click on `Request a demo` button ----------
+01:31:52 - selenium   - INFO       - Navigated to URL: https://cloud.google.com/?hl=en
+01:31:52 - behave     - INFO       - Go to Demo page - Status.passed
+01:31:56 - behave     - INFO       - Click on `Request a demo` button - Status.passed
+01:31:56 - behave     - INFO       - Verify if navigating to correct Register Demo page - Status.passed
+01:31:56 - behave     - INFO       - environment information: {'OS': 'Windows-10-10.0.22631-SP0', 'OS_Version': '10.0.22631', 'Python_Version': '3.9.19', 'Browser': 'chrome', 'Browser_Version': '128.0.6613.120', 'URL': 'https://cloud.google.com/?hl=en'} 
+
